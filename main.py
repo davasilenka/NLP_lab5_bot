@@ -4,7 +4,7 @@ import jsons
 from Class_ModelResponse import ModelResponse
 
 # Замените 'YOUR_BOT_TOKEN' на ваш токен от BotFather
-API_TOKEN = '8208102544:AAEeaW_YdqUxFiSJdAQF1the-e-_VMJJetY'
+API_TOKEN = 'ВАШ ТОКЕН'
 bot = telebot.TeleBot(API_TOKEN)
 
 user_contexts = {}
@@ -122,4 +122,5 @@ def handle_message(message):
 
 if __name__ == '__main__':
     print("Бот запущен с поддержкой контекста...")
+
     bot.polling(none_stop=True)
